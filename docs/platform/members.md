@@ -6,6 +6,12 @@ The Members page is the church's member directory.
 
 ![Members page showing member cards with approval status, contact info, and Deactivate buttons](/screenshots/members.png)
 
+</div>
+
+<div class="screenshot-window">
+
+![Members directory with search and filter options](/screenshots/Members.png)
+
 </div> It shows every member in your branch (or across all branches for Admins) with their status, contact details, and fellowship assignment.
 
 

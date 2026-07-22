@@ -38,9 +38,21 @@ After adding members, any who self-registered will appear in the **Approval Queu
 
 Go to **Fellowships → + New Fellowship** and create your first small group. Assign a leader, set the fellowship type (K-Groups, Kharis Express, New Breeds, etc.), and add a meeting schedule.
 
+<div class="screenshot-window">
+
+![New Fellowship setup form](/screenshots/set-up-fellowship.png)
+
+</div>
+
 ## Step 6 — Set up Departments
 
 Go to **Departments → + New Department**. Select the ministry type (Choir, Ushers, Admin, Hospitality, etc.), assign a lead member, and optionally a deputy.
+
+<div class="screenshot-window">
+
+![New Department setup form](/screenshots/set-up-department.png)
+
+</div>
 
 ## Step 7 — You're ready
 

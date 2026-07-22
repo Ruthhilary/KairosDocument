@@ -29,6 +29,8 @@ Each card shows:
 - Meeting schedule (e.g. "Every Friday, 6:30 PM")
 - **Deactivate** button (Pastor and Admin only)
 
+![Fellowship card detail view](/screenshots/Fellowship-cards.png)
+
 ## Finding a fellowship on the map
 
 Click **Find on Map** to open the interactive map view. Fellowships are plotted by their branch location, colour-coded by type.
@@ -67,6 +69,12 @@ Search by postcode or country to find the closest fellowship. Kairos shows:
 ## Creating a fellowship
 
 Click **+ New Fellowship** (Pastor and Admin only):
+
+<div class="screenshot-window">
+
+![New Fellowship creation form](/screenshots/set-up-fellowship.png)
+
+</div>
 
 | Field | Notes |
 |-------|-------|

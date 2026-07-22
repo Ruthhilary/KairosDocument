@@ -51,6 +51,12 @@ Each card shows:
 
 Click **+ New Department** (Pastor and Admin only):
 
+<div class="screenshot-window">
+
+![New Department creation form](/screenshots/set-up-department.png)
+
+</div>
+
 | Field | Notes |
 |-------|-------|
 | Ministry type | Select from the list above |
