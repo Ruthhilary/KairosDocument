@@ -4,7 +4,7 @@ Welcome to the Kairos documentation. This guide covers everything you need to kn
 
 <div class="screenshot-window">
 
-![Kairos platform overview showing the full navigation and dashboard](/screenshots/Introduction.png)
+![Kairos platform overview showing the full navigation and dashboard](/screenshots/introduction.png)
 
 </div>
 

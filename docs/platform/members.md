@@ -10,7 +10,7 @@ The Members page is the church's member directory.
 
 <div class="screenshot-window">
 
-![Members directory with search and filter options](/screenshots/Members.png)
+![Members directory with search and filter options](/screenshots/members-2.png)
 
 </div> It shows every member in your branch (or across all branches for Admins) with their status, contact details, and fellowship assignment.
 

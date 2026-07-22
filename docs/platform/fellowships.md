@@ -29,7 +29,7 @@ Each card shows:
 - Meeting schedule (e.g. "Every Friday, 6:30 PM")
 - **Deactivate** button (Pastor and Admin only)
 
-![Fellowship card detail view](/screenshots/Fellowship-cards.png)
+![Fellowship card detail view](/screenshots/fellowship-cards.png)
 
 ## Finding a fellowship on the map
 
