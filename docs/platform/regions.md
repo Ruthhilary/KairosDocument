@@ -1,6 +1,10 @@
 # Regions
 
-Regions are geographic groupings that organise your branches.
+Regions are geographic groupings that organise your branches. Every branch must belong to a region.
+
+::: tip Add the Regions screenshot
+Take a screenshot of the Regions page and save it as `regions.png` in the screenshots folder to display it here.
+:::
 
 
 

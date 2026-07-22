@@ -49,8 +49,8 @@ After a program, coordinators and leaders log the souls reached by linking soul 
 
 | Action | Member | Leader | Pastor | Admin |
 |--------|--------|--------|--------|-------|
-| View programs | ✅ (own branch) | ✅ | ✅ | ✅ |
-| Register as worker | ✅ (own branch) | ✅ | ✅ | ✅ |
-| Create programs | ❌ | ✅ (programs they coordinate) | ✅ | ✅ |
-| Update programs | ❌ | ✅ (own programs) | ✅ | ✅ |
-| View all worker registrations | ❌ | ✅ (own programs) | ✅ | ✅ |
+| View programs | Yes (own branch) | Yes | Yes | Yes |
+| Register as worker | Yes (own branch) | Yes | Yes | Yes |
+| Create programs | No | Yes (programs they coordinate) | Yes | Yes |
+| Update programs | No | Yes (own programs) | Yes | Yes |
+| View all worker registrations | No | Yes (own programs) | Yes | Yes |

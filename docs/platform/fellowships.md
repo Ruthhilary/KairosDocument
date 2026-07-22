@@ -2,14 +2,11 @@
 
 Fellowships are the small groups within each branch. Kairos supports multiple fellowship types, a map view for finding nearby groups, and full meeting and attendance tracking.
 
-## Finding a fellowship on the map
+<div class="screenshot-window">
 
-Click **Find on Map** to open the interactive map view. Fellowships are plotted by their branch location, colour-coded by type.
+![Fellowships page showing fellowship cards with type badges and meeting schedules](/screenshots/fellowships.png)
 
-![Fellowships map view showing fellowship markers across the world](/screenshots/fellowships-map-light.png)
-
-![Fellowships map in dark mode](/screenshots/fellowships-map-dark.png)
-
+</div>
 
 ## Fellowship types
 
@@ -32,30 +29,40 @@ Each card shows:
 - Meeting schedule (e.g. "Every Friday, 6:30 PM")
 - **Deactivate** button (Pastor and Admin only)
 
-The badge colour matches the fellowship type, making it easy to scan a mixed list.
-
 ## Finding a fellowship on the map
 
 Click **Find on Map** to open the interactive map view. Fellowships are plotted by their branch location, colour-coded by type.
 
+<div class="screenshot-window">
 
+![Fellowships map view showing fellowship markers across the world](/screenshots/fellowships-map-light.png)
+
+</div>
+
+<div class="screenshot-phone">
+
+![Fellowships map in dark mode](/screenshots/fellowships-map-dark.png)
+
+</div>
 
 ### Map popup
 
-Click any marker to see the fellowship name, branch, and next meeting date.
-
+Click any marker on the map to see the fellowship name, branch, and next meeting date.
 
 ### Nearest fellowship
 
-Search by postcode or country to find the closest fellowship with travel times.
-
-![Nearest fellowship result showing distance and travel time options](/screenshots/fellowships-map-nearest.png) Kairos will find the nearest fellowship and show:
+Search by postcode or country to find the closest fellowship. Kairos shows:
 
 - Distance in km
 - Walking, bus, car, and train travel times
 - Links to get directions via Maps or Waze
-- The fellowship type available at that location
+- The fellowship types available at that location
 
+<div class="screenshot-phone">
+
+![Nearest fellowship result showing distance and travel time options](/screenshots/fellowships-map-nearest.png)
+
+</div>
 
 ## Creating a fellowship
 
@@ -73,15 +80,15 @@ Click **+ New Fellowship** (Pastor and Admin only):
 
 ## Fellowship statistics
 
-The top-right of the Fellowships page shows total fellowship count and how many are currently active — e.g. **5 Fellowships** and **5 Active**.
+The top-right of the Fellowships page shows total fellowship count and how many are currently active.
 
 ## Who can see what
 
 | Action | Member | Leader | Pastor | Admin |
 |--------|--------|--------|--------|-------|
-| View fellowship list | ✅ | ✅ | ✅ | ✅ |
-| Use map view | ✅ | ✅ | ✅ | ✅ |
-| Create fellowships | ❌ | ❌ | ✅ | ✅ |
-| Deactivate fellowships | ❌ | ❌ | ✅ | ✅ |
-| Manage fellowship roster | ❌ | ✅ (own) | ✅ | ✅ |
-| Record meeting attendance | ❌ | ✅ (own) | ✅ | ✅ |
+| View fellowship list | Yes | Yes | Yes | Yes |
+| Use map view | Yes | Yes | Yes | Yes |
+| Create fellowships | No | No | Yes | Yes |
+| Deactivate fellowships | No | No | Yes | Yes |
+| Manage fellowship roster | No | Own only | Yes | Yes |
+| Record meeting attendance | No | Own only | Yes | Yes |

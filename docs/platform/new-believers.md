@@ -51,9 +51,9 @@ Click the **Sessions** button to manage scheduled class sessions — dates, topi
 
 | Action | Member | Leader | Pastor | Admin |
 |--------|--------|--------|--------|-------|
-| View pipeline | ❌ | ✅ (New Believers dept leads) | ✅ | ✅ |
-| Enrol members | ❌ | ✅ (New Believers dept leads) | ✅ | ✅ |
-| Advance stages | ❌ | ✅ (New Believers dept leads) | ✅ | ✅ |
-| Record session attendance | ❌ | ✅ (New Believers dept leads) | ✅ | ✅ |
+| View pipeline | No | Yes (New Believers dept leads) | Yes | Yes |
+| Enrol members | No | Yes (New Believers dept leads) | Yes | Yes |
+| Advance stages | No | Yes (New Believers dept leads) | Yes | Yes |
+| Record session attendance | No | Yes (New Believers dept leads) | Yes | Yes |
 
 New Believers department leaders have visibility across the full discipleship pipeline for their branch. Regular department leaders without this specific grant cannot access this page.

@@ -30,9 +30,11 @@ Members are the base level of the system. After registering and being approved, 
 - View other members' profiles or data
 - Manage any group, fellowship, or department
 - Approve requests or take administrative actions
-- Access reports or analytics
+- Access the Reports page (personal attendance is available via My Attendance only)
 
-> **Pending members** (registered but not yet approved) have even more restricted access — they can only view their own profile until an admin or pastor approves their account.
+::: tip Pending members
+Pending members (registered but not yet approved) can only view their own profile until an admin or pastor approves their account.
+:::
 
 ---
 
@@ -77,7 +79,7 @@ Pastors are responsible for an entire branch. Their access is fully scoped to th
 - Create and manage all fellowships and departments in their branch
 - Create outreach programs for their branch
 - Record attendance for services and fellowship meetings
-- View all form submission types (First-Time Visitor, Testimony, Baby Naming, Baby Dedication, etc.)
+- View all form submission types
 - Export form submissions and manage dormant attendees
 - Access full branch-level reports: member growth, attendance trends, fellowship activity, new believers pipeline
 
@@ -95,15 +97,16 @@ Admins have full, unrestricted access across the entire system.
 
 **Can do:**
 - Create and manage branches and regions
-- Assign and remove leadership roles (Main Pastor, Elder, Department Lead, etc.) to any member in any branch
+- Assign and remove leadership roles to any member in any branch
 - Manage members across all branches
 - View church-wide analytics and run cross-branch reports
 - Access the full admin dashboard with aggregate stats across all branches
 - Configure system-level settings unavailable to other roles
 - Manage approval queues across all branches
 
-**Note on financial data:**
-By design, system-level admins handling technical functions do not automatically have access to sensitive member financial data. Explicit privileges are required for financial access. This separation of duties is intentional.
+::: warning Financial data
+System-level admins handling technical functions do not automatically have access to sensitive member financial data. Explicit privileges are required. This separation of duties is intentional.
+:::
 
 ---
 
@@ -111,18 +114,20 @@ By design, system-level admins handling technical functions do not automatically
 
 | Action | Member | Leader | Pastor | Admin |
 |--------|--------|--------|--------|-------|
-| Edit own profile | ✅ | ✅ | ✅ | ✅ |
-| View own attendance | ✅ | ✅ | ✅ | ✅ |
-| Submit forms | ✅ | ✅ | ✅ | ✅ |
-| View group roster | ❌ | ✅ (own group) | ✅ | ✅ |
-| Approve join requests | ❌ | ✅ (own group) | ✅ | ✅ |
-| Record attendance | ❌ | ✅ (own group) | ✅ | ✅ |
-| Manage members | ❌ | ❌ | ✅ (own branch) | ✅ |
-| Approve registrations | ❌ | ❌ | ✅ (own branch) | ✅ |
-| Import/export CSV | ❌ | ❌ | ✅ (own branch) | ✅ |
-| Create departments | ❌ | ❌ | ✅ (own branch) | ✅ |
-| Branch-level reports | ❌ | ❌ | ✅ (own branch) | ✅ |
-| Manage branches | ❌ | ❌ | ❌ | ✅ |
-| Manage regions | ❌ | ❌ | ❌ | ✅ |
-| Church-wide analytics | ❌ | ❌ | ❌ | ✅ |
-| Assign system roles | ❌ | ❌ | ❌ | ✅ |
+| Edit own profile | Yes | Yes | Yes | Yes |
+| View own attendance | Yes | Yes | Yes | Yes |
+| Submit forms | Yes | Yes | Yes | Yes |
+| View group roster | No | Own group | Yes | Yes |
+| Approve join requests | No | Own group | Yes | Yes |
+| Record attendance | No | Own group | Yes | Yes |
+| Manage members | No | No | Own branch | Yes |
+| Approve registrations | No | No | Own branch | Yes |
+| Import/export CSV | No | No | Own branch | Yes |
+| Create departments | No | No | Own branch | Yes |
+| Branch-level reports | No | No | Own branch | Yes |
+| Personal attendance (My Attendance) | Yes | Yes | Yes | Yes |
+| Reports page | No | Own group | Own branch | Yes |
+| Manage branches | No | No | No | Yes |
+| Manage regions | No | No | No | Yes |
+| Church-wide analytics | No | No | No | Yes |
+| Assign system roles | No | No | No | Yes |

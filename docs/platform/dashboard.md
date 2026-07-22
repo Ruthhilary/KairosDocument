@@ -2,7 +2,11 @@
 
 The dashboard is the first thing you see after logging in.
 
-![Kairos admin dashboard showing stats, upcoming fellowships, and mission control reports](/screenshots/dashboard.png) It gives you an at-a-glance view of what's happening in your church, scoped to your role.
+<div class="screenshot-window">
+
+![Kairos admin dashboard showing stats, upcoming fellowships, and mission control reports](/screenshots/dashboard.png)
+
+</div> It gives you an at-a-glance view of what's happening in your church, scoped to your role.
 
 
 ## What you see

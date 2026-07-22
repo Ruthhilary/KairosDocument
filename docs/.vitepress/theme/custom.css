@@ -335,6 +335,103 @@
   --vp-local-search-highlight-text: #6D28D9;
 }
 
+/* ─── Screenshot presentation ────────────────────────────────────────────── */
+
+/* All doc images — clean, rounded, shadow, blurred purple gradient background */
+.vp-doc img {
+  display: block;
+  margin: 2rem auto;
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-border);
+  box-shadow: 0 8px 32px rgba(109, 40, 217, 0.12), 0 2px 8px rgba(0, 0, 0, 0.08);
+  max-width: 100%;
+  background: var(--vp-c-bg-soft);
+}
+
+.dark .vp-doc img {
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5), 0 2px 8px rgba(109, 40, 217, 0.2);
+  border-color: var(--vp-c-border);
+}
+
+/* Mac window chrome — wrap img in <div class="screenshot-window"> */
+.screenshot-window {
+  position: relative;
+  margin: 2rem auto;
+  max-width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(109, 40, 217, 0.15), 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--vp-c-border);
+}
+
+.screenshot-window img {
+  margin: 0 !important;
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  display: block;
+  width: 100%;
+}
+
+/* Titlebar strip */
+.screenshot-window::before {
+  content: '';
+  display: block;
+  height: 36px;
+  background: #f0eded;
+  border-bottom: 1px solid #d9d4d4;
+}
+
+.dark .screenshot-window::before {
+  background: #1e1b28;
+  border-bottom: 1px solid #2e2840;
+}
+
+/* Traffic light dots */
+.screenshot-window::after {
+  content: '';
+  display: block;
+  width: 54px;
+  height: 13px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 54 13'%3E%3Ccircle cx='6.5' cy='6.5' r='5.5' fill='%23ff5f57'/%3E%3Ccircle cx='27' cy='6.5' r='5.5' fill='%23febc2e'/%3E%3Ccircle cx='47.5' cy='6.5' r='5.5' fill='%2328c840'/%3E%3C/svg%3E") no-repeat left center;
+  position: absolute;
+  top: 12px;
+  left: 14px;
+}
+
+/* Phone frame — wrap img in <div class="screenshot-phone"> */
+.screenshot-phone {
+  position: relative;
+  margin: 2rem auto;
+  width: 280px;
+  max-width: 100%;
+}
+
+.screenshot-phone img {
+  display: block;
+  width: 100%;
+  margin: 0 !important;
+  border-radius: 36px !important;
+  border: 8px solid #1a1a1a !important;
+  box-shadow: 0 0 0 2px #333, 0 24px 64px rgba(0,0,0,0.4) !important;
+}
+
+.dark .screenshot-phone img {
+  border-color: #0a0a0a !important;
+  box-shadow: 0 0 0 2px #222, 0 24px 64px rgba(0,0,0,0.7) !important;
+}
+
+/* Caption below screenshots */
+.vp-doc img + em {
+  display: block;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--vp-c-text-3);
+  margin-top: -1.25rem;
+  margin-bottom: 1.5rem;
+  font-style: normal;
+}
+
 /* ─── Mobile ─────────────────────────────────────────────────────────────── */
 @media (max-width: 768px) {
   .vp-doc h1 {
@@ -383,6 +480,20 @@
   .vp-doc .custom-block {
     font-size: 0.875rem;
   }
+
+  /* Screenshots scale down gracefully */
+  .vp-doc img {
+    border-radius: 8px;
+    margin: 1.5rem auto;
+  }
+
+  .screenshot-window {
+    border-radius: 8px;
+  }
+
+  .screenshot-phone {
+    width: 220px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -392,6 +503,10 @@
 
   .VPHero .name {
     font-size: 1.7rem !important;
+  }
+
+  .screenshot-phone {
+    width: 180px;
   }
 }
 
@@ -454,80 +569,4 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--vp-c-brand-3);
-}
-
-/* ─── Screenshot / image presentation ───────────────────────────────────── */
-
-/* Base style for all doc images — clean, rounded, subtle shadow */
-.vp-doc img {
-  display: block;
-  margin: 1.75rem auto;
-  border-radius: 10px;
-  border: 1px solid var(--vp-c-border);
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10), 0 1px 4px rgba(0, 0, 0, 0.06);
-  max-width: 100%;
-}
-
-.dark .vp-doc img {
-  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.45), 0 1px 4px rgba(0, 0, 0, 0.2);
-  border-color: var(--vp-c-border);
-}
-
-/* Window chrome wrapper — add class="mac-window" to img in markdown via custom component */
-/* Used via a wrapper div with data-mac attribute */
-.screenshot-window {
-  position: relative;
-  margin: 1.75rem auto;
-  max-width: 100%;
-}
-
-.screenshot-window img {
-  margin: 0 !important;
-  border-radius: 0 0 10px 10px !important;
-  border-top: none !important;
-}
-
-.screenshot-window::before {
-  content: '';
-  display: block;
-  height: 32px;
-  background: var(--vp-c-bg-mute);
-  border: 1px solid var(--vp-c-border);
-  border-bottom: 1px solid var(--vp-c-divider);
-  border-radius: 10px 10px 0 0;
-}
-
-.screenshot-window::after {
-  content: '';
-  display: block;
-  width: 52px;
-  height: 12px;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 52 12'%3E%3Ccircle cx='6' cy='6' r='5' fill='%23ff5f57'/%3E%3Ccircle cx='26' cy='6' r='5' fill='%23febc2e'/%3E%3Ccircle cx='46' cy='6' r='5' fill='%2328c840'/%3E%3C/svg%3E") no-repeat center;
-  position: absolute;
-  top: 10px;
-  left: 12px;
-}
-
-/* Caption below screenshots */
-.vp-doc img + em,
-.screenshot-window + em {
-  display: block;
-  text-align: center;
-  font-size: 0.78rem;
-  color: var(--vp-c-text-3);
-  margin-top: -1rem;
-  margin-bottom: 1.5rem;
-  font-style: normal;
-}
-
-/* Mobile — ensure screenshots don't overflow */
-@media (max-width: 768px) {
-  .vp-doc img {
-    border-radius: 8px;
-    margin: 1.25rem auto;
-  }
-
-  .screenshot-window::before {
-    height: 28px;
-  }
 }

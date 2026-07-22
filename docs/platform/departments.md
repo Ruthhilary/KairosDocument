@@ -2,31 +2,40 @@
 
 Departments are the ministry teams within each branch.
 
+<div class="screenshot-window">
+
 ![Departments page showing ministry team cards with lead member, member count, and pending badges](/screenshots/departments.png)
 
+</div>
 
 ## Ministry types
 
-Use the **All Ministries** dropdown to filter by ministry type:
+Kairos supports all Kharis Church ministry departments:
 
 | Ministry | Description |
 |----------|-------------|
-| Admin | Service-day registers and first-timer captures |
-| Children's Ministry | Children's classes and attendance |
-| Choir | Music ministry |
+| Administration | Service-day registers and first-timer captures |
+| Children's Department | Sunday school and children's ministry |
 | Design | Graphics and creative |
-| Drama | Drama ministry |
-| Hospitality | Welcome and hospitality team |
+| Drama | Drama and stage performances |
+| Hospitality | Food, refreshments and guest care |
 | Host Team | First-time guest management |
-| New Believers | Discipleship pipeline team |
-| Production | Audio/visual production |
-| Sanctuary Keepers | Facility and setup team |
-| Social Media | Communications and social |
-| Sound | Sound engineering |
-| Ushers | Door and service management |
-| Welfare | Member welfare and support |
+| Production | Stage production and lighting |
+| Music | Music ministry and worship |
+| Follow Up | Pastoral follow-up team |
+| New Believers | New convert care and discipleship |
+| Evangelism | Outreach and evangelism team |
+| Sanctuary Keepers | Facility cleaning and preparation |
+| Set-up | Stage and venue setup |
+| Social Media | Online presence and content |
+| Sound | Audio engineering and mixing |
+| Uniform | Uniform management and scheduling |
+| Ushers | Door, seating and order management |
+| Welfare | Pastoral care and benevolence |
+| Security | Site security and safety |
+| Media | Media production and recording |
 
-Use the **All Branches** dropdown to filter by branch when you're an Admin managing multiple locations.
+Use the **All Branches** dropdown to filter by branch when managing multiple locations.
 
 ## Department cards
 
@@ -59,7 +68,7 @@ Members can request to join a department from their profile or department page. 
 
 ## Pending join requests
 
-When a department card shows a **pending** badge, the department leader has unapproved join requests. Leaders see pending requests inside their department management view.
+When a department card shows a **pending** badge, the department leader has unapproved join requests.
 
 ## Department roster
 
@@ -69,9 +78,9 @@ Leaders can view their full department roster including member contact details, 
 
 | Action | Member | Leader | Pastor | Admin |
 |--------|--------|--------|--------|-------|
-| View department list | ✅ | ✅ | ✅ | ✅ |
-| Create departments | ❌ | ❌ | ✅ | ✅ |
-| Deactivate departments | ❌ | ❌ | ✅ | ✅ |
-| Approve join requests | ❌ | ✅ (own) | ✅ | ✅ |
-| View roster | ❌ | ✅ (own) | ✅ | ✅ |
-| Log follow-up notes | ❌ | ✅ (own) | ✅ | ✅ |
+| View department list | Yes | Yes | Yes | Yes |
+| Create departments | No | No | Yes | Yes |
+| Deactivate departments | No | No | Yes | Yes |
+| Approve join requests | No | Own only | Yes | Yes |
+| View roster | No | Own only | Yes | Yes |
+| Log follow-up notes | No | Own only | Yes | Yes |
