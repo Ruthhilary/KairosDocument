@@ -124,8 +124,6 @@ export default defineConfig({
       next: 'Next',
     },
 
-    lastUpdated: {
-      text: 'Last updated',
-    },
+
   },
 });
