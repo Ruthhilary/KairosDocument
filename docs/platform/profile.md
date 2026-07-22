@@ -1,6 +1,8 @@
 # Profile
 
-Your Profile page shows your personal information, your place in the church, and your leadership roles. Every user in Kairos has a profile.
+Your Profile page shows your personal information, your place in the church, and your leadership roles.
+
+![Profile page showing personal information, address, home branch, fellowships, leadership, and emergency contact](/screenshots/profile.png)
 
 
 ## Sections

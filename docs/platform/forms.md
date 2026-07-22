@@ -1,6 +1,8 @@
 # Forms & Data Capture
 
-The Forms page is where front-desk data capture happens. It covers altar call responses, baptism and dedication requests, first-time visitor intake, and testimonies.
+The Forms page is where front-desk data capture happens.
+
+![Forms and Data Capture page showing six form type cards with Open form links](/screenshots/forms.png)
 
 
 ## Available forms
@@ -23,6 +25,8 @@ All six forms are accessible to Admins and Pastors only. Leaders who are part of
 ## Form Submissions
 
 Click **Submissions** under the Administration section to review all captured forms.
+
+![Form Submissions page with filters for form type, status, date range, and Export CSV button](/screenshots/form-submissions.png)
 
 
 

@@ -455,3 +455,79 @@
 ::-webkit-scrollbar-thumb:hover {
   background: var(--vp-c-brand-3);
 }
+
+/* ─── Screenshot / image presentation ───────────────────────────────────── */
+
+/* Base style for all doc images — clean, rounded, subtle shadow */
+.vp-doc img {
+  display: block;
+  margin: 1.75rem auto;
+  border-radius: 10px;
+  border: 1px solid var(--vp-c-border);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10), 0 1px 4px rgba(0, 0, 0, 0.06);
+  max-width: 100%;
+}
+
+.dark .vp-doc img {
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.45), 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-color: var(--vp-c-border);
+}
+
+/* Window chrome wrapper — add class="mac-window" to img in markdown via custom component */
+/* Used via a wrapper div with data-mac attribute */
+.screenshot-window {
+  position: relative;
+  margin: 1.75rem auto;
+  max-width: 100%;
+}
+
+.screenshot-window img {
+  margin: 0 !important;
+  border-radius: 0 0 10px 10px !important;
+  border-top: none !important;
+}
+
+.screenshot-window::before {
+  content: '';
+  display: block;
+  height: 32px;
+  background: var(--vp-c-bg-mute);
+  border: 1px solid var(--vp-c-border);
+  border-bottom: 1px solid var(--vp-c-divider);
+  border-radius: 10px 10px 0 0;
+}
+
+.screenshot-window::after {
+  content: '';
+  display: block;
+  width: 52px;
+  height: 12px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 52 12'%3E%3Ccircle cx='6' cy='6' r='5' fill='%23ff5f57'/%3E%3Ccircle cx='26' cy='6' r='5' fill='%23febc2e'/%3E%3Ccircle cx='46' cy='6' r='5' fill='%2328c840'/%3E%3C/svg%3E") no-repeat center;
+  position: absolute;
+  top: 10px;
+  left: 12px;
+}
+
+/* Caption below screenshots */
+.vp-doc img + em,
+.screenshot-window + em {
+  display: block;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--vp-c-text-3);
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+  font-style: normal;
+}
+
+/* Mobile — ensure screenshots don't overflow */
+@media (max-width: 768px) {
+  .vp-doc img {
+    border-radius: 8px;
+    margin: 1.25rem auto;
+  }
+
+  .screenshot-window::before {
+    height: 28px;
+  }
+}

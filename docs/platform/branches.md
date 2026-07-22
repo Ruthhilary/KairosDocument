@@ -1,6 +1,8 @@
 # Branches
 
-The Branches page shows every church location in the system. Admins see all branches across all regions. Pastors and members see their own branch context.
+The Branches page shows every church location in the system.
+
+![Branches page showing Kharis Accra, Kharis Freetown, Kharis Kumasi, Kharis London Central, and Kharis Manchester](/screenshots/branches.png) Admins see all branches across all regions. Pastors and members see their own branch context.
 
 
 ## Branch cards
@@ -38,7 +40,9 @@ Only Admins can deactivate branches.
 
 ## My Branch
 
-Members and Pastors access their own branch directly from the **My Branch** link in the sidebar. This page shows branch details, current leadership, and quick action links.
+Members and Pastors access their own branch directly from the **My Branch** link in the sidebar.
+
+![My Branch page showing branch details, current leadership, and quick actions](/screenshots/my-branch.png)
 
 
 ### Branch Details

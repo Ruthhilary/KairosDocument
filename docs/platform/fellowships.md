@@ -2,6 +2,14 @@
 
 Fellowships are the small groups within each branch. Kairos supports multiple fellowship types, a map view for finding nearby groups, and full meeting and attendance tracking.
 
+## Finding a fellowship on the map
+
+Click **Find on Map** to open the interactive map view. Fellowships are plotted by their branch location, colour-coded by type.
+
+![Fellowships map view showing fellowship markers across the world](/screenshots/fellowships-map-light.png)
+
+![Fellowships map in dark mode](/screenshots/fellowships-map-dark.png)
+
 
 ## Fellowship types
 
@@ -37,9 +45,11 @@ Click **Find on Map** to open the interactive map view. Fellowships are plotted 
 Click any marker to see the fellowship name, branch, and next meeting date.
 
 
-### Find a fellowship near you
+### Nearest fellowship
 
-Type a postcode or country into the search boxes on the right side of the map. Kairos will find the nearest fellowship and show:
+Search by postcode or country to find the closest fellowship with travel times.
+
+![Nearest fellowship result showing distance and travel time options](/screenshots/fellowships-map-nearest.png) Kairos will find the nearest fellowship and show:
 
 - Distance in km
 - Walking, bus, car, and train travel times

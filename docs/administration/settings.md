@@ -1,6 +1,12 @@
 # Settings
 
-App Settings let you manage your account security, display preferences, notifications, and privacy. Every user has access to their own settings.
+App Settings let you manage your account security, display preferences, notifications, and privacy.
+
+<div class="screenshot-window">
+
+![App Settings page showing Account and Security, Display, Notifications, and Privacy sections](/screenshots/settings.png)
+
+</div>
 
 
 Access settings from your **Profile** page — click **Settings** in the top-right corner, or use the gear icon at the bottom of the sidebar.

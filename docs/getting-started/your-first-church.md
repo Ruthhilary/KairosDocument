@@ -20,11 +20,13 @@ Go to **Branches** and click **+ New Branch**. Fill in:
 - Region
 - City, address, phone, and email
 
+![Branches page showing all church locations](/screenshots/branches.png)
 
 ## Step 3 — Assign a Pastor
 
 Once your branch exists, open it from **My Branch** and use the **Current Leadership** section to assign a Main Pastor. Only members who exist in the system can be assigned.
 
+![My Branch page showing branch details and current leadership team](/screenshots/my-branch.png)
 
 ## Step 4 — Add Members
 

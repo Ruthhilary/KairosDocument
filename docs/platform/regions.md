@@ -1,6 +1,7 @@
 # Regions
 
-Regions are geographic groupings that organise your branches. Every branch must belong to a region.
+Regions are geographic groupings that organise your branches.
+
 
 
 ## What regions do

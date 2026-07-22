@@ -1,6 +1,8 @@
 # Departments
 
-Departments are the ministry teams within each branch. Kairos supports the full range of Kharis Church ministries — from Choir and Ushers to Admin, Hospitality, and New Believers.
+Departments are the ministry teams within each branch.
+
+![Departments page showing ministry team cards with lead member, member count, and pending badges](/screenshots/departments.png)
 
 
 ## Ministry types

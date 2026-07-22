@@ -1,6 +1,8 @@
 # Outreach Programs
 
-The Outreach Programs page is where evangelism events are created and managed. Programs are branch-scoped — members can only register for programs within their own branch.
+The Outreach Programs page is where evangelism events are created and managed.
+
+![Outreach Programs page showing Active Programs and Past Programs tabs with program table](/screenshots/outreach.png)
 
 
 ## Program list

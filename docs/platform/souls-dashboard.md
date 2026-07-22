@@ -1,6 +1,8 @@
 # Souls Dashboard
 
-The Souls Dashboard provides a dedicated analytics view for the souls pipeline — showing how people captured through outreach are progressing through follow-up, and how many are converting.
+The Souls Dashboard provides a dedicated analytics view for the souls pipeline.
+
+![Souls Dashboard showing total souls, critical count, pipeline status donut chart, and conversion funnel](/screenshots/souls-dashboard.png)
 
 
 ## Summary stats

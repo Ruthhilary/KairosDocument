@@ -2,6 +2,8 @@
 
 The Attendance page covers service attendance — Sunday services, midweek services, and special services. Fellowship meeting attendance is managed separately from within each fellowship.
 
+![Service Attendance page showing a list of Sunday services across branches with Check In links](/screenshots/attendance.png)
+
 
 ## Service list
 
@@ -45,6 +47,8 @@ Attendance can be recorded by Admins, Pastors, and Leaders with the appropriate 
 ## My Attendance
 
 Every member has a personal **My Attendance** page in the sidebar. This is private — only the member, their pastor, and the admin team can see it.
+
+![My Attendance page showing 67% attendance rate, punctuality breakdown, streak, and service history](/screenshots/my-attendance.png)
 
 
 ### What it shows

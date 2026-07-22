@@ -18,7 +18,7 @@ That's the design principle behind Kairos.
 
 **Branch isolation is built in.** Data never leaks across branches by accident. A pastor in London cannot see member records from Accra. Admins have explicit cross-branch access.
 
-**Built for growth.** The architecture supports hundreds of branches and thousands of members. The same system that works for one branch today scales to a network of churches tomorrow.
+![Kairos login screen — Kharis Church branding with the verse "Let all things be done decently and in order"](/screenshots/login.png)
 
 ## The church it's built for
 
@@ -29,4 +29,3 @@ Kairos is designed around Kharis Church's structure:
 - Each branch has its own pastor, departments, and fellowships
 - Members can attend any branch but have a home branch
 - A small admin team manages the whole network
-
