@@ -7,13 +7,29 @@ export default defineConfig({
   base: '/KairosDocument/',
   ignoreDeadLinks: [/^http:\/\/localhost/],
 
+  head: [
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', {
+      rel: 'stylesheet',
+      href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap'
+    }],
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0, viewport-fit=cover' }],
+    ['meta', { name: 'theme-color', content: '#6D28D9', media: '(prefers-color-scheme: light)' }],
+    ['meta', { name: 'theme-color', content: '#0f0d14', media: '(prefers-color-scheme: dark)' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'default' }],
+  ],
+
   themeConfig: {
-    logo: '/logo.png',
+    siteTitle: 'Kairos',
+
     nav: [
-      { text: 'Guide', link: '/getting-started/introduction' },
+      { text: 'Getting Started', link: '/getting-started/introduction' },
       { text: 'Platform', link: '/platform/dashboard' },
       { text: 'Church Management', link: '/church-management/member-lifecycle' },
       { text: 'Administration', link: '/administration/permissions' },
+      { text: 'Analytics', link: '/analytics/church-health' },
     ],
 
     sidebar: [
@@ -85,6 +101,9 @@ export default defineConfig({
 
     search: {
       provider: 'local',
+      options: {
+        detailedView: true,
+      },
     },
 
     socialLinks: [
@@ -93,6 +112,20 @@ export default defineConfig({
 
     footer: {
       message: 'Kairos — Church Administration System by Kharis Church',
+    },
+
+    outline: {
+      level: [2, 3],
+      label: 'On this page',
+    },
+
+    docFooter: {
+      prev: 'Previous',
+      next: 'Next',
+    },
+
+    lastUpdated: {
+      text: 'Last updated',
     },
   },
 });
