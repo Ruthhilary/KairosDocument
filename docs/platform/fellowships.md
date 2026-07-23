@@ -66,7 +66,13 @@ Search by postcode or country to find the closest fellowship. Kairos shows:
 
 <div class="screenshot-window screenshot-light">
 
-![Nearest fellowship result showing distance and travel time options](/screenshots/fellowships-map-nearest-light.png)
+![Nearest fellowship result showing distance and travel time options](/screenshots/nearest-fellowship-light.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![Nearest fellowship result showing distance and travel time options in dark mode](/screenshots/nearest-fellowship-dark.png)
 
 </div>
 
