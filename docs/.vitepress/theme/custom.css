@@ -601,13 +601,17 @@
 
 /* ─── Light / dark mode image switching ─────────────────────────────────── */
 
-/* In light mode: hide dark screenshots, show light ones */
-html:not(.dark) .screenshot-dark { display: none !important; }
-html:not(.dark) .screenshot-light { display: block; }
+/* Default: show light, hide dark */
+.screenshot-dark { display: none !important; }
+.screenshot-light { display: block !important; }
 
-/* In dark mode: hide light screenshots, show dark ones */
+/* When dark mode is active */
 html.dark .screenshot-light { display: none !important; }
-html.dark .screenshot-dark { display: block; }
+html.dark .screenshot-dark { display: block !important; }
+
+/* Also target VitePress's body class approach */
+body.dark .screenshot-light { display: none !important; }
+body.dark .screenshot-dark { display: block !important; }
 
 /* Remove phone frame wrappers — no phone screenshots */
 .screenshot-phone {
