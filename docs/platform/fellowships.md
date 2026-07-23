@@ -10,10 +10,9 @@ Fellowships are the small groups within each branch. Kairos supports multiple fe
 
 <div class="screenshot-window screenshot-dark">
 
-![Fellowships page showing fellowship cards with type badges and meeting schedules](/screenshots/fellowship-dark.png)
+![Fellowships page in dark mode showing fellowship cards with type badges and meeting schedules](/screenshots/fellowship-dark.png)
 
 </div>
-
 
 ## Fellowship types
 
@@ -36,8 +35,6 @@ Each card shows:
 - Meeting schedule (e.g. "Every Friday, 6:30 PM")
 - **Deactivate** button (Pastor and Admin only)
 
-![Fellowship card detail view](/screenshots/fellowship-cards.png)
-
 ## Finding a fellowship on the map
 
 Click **Find on Map** to open the interactive map view. Fellowships are plotted by their branch location, colour-coded by type.
@@ -54,34 +51,24 @@ Click **Find on Map** to open the interactive map view. Fellowships are plotted 
 
 </div>
 
-
-
 ### Map popup
 
 Click any marker on the map to see the fellowship name, branch, and next meeting date.
 
 ### Nearest fellowship
 
-Search by postcode or country to find the closest fellowship.
-
-<div class="screenshot-window screenshot-light">
-
-![Nearest fellowship result showing distance and travel time options](/screenshots/fellowships-map-nearest-light.png)
-
-</div>
-
-<div class="screenshot-window screenshot-dark">
-
-![Nearest fellowship result showing distance and travel time options](/screenshots/fellowships-map-nearest-light.png)
-
-</div> Kairos shows:
+Search by postcode or country to find the closest fellowship. Kairos shows:
 
 - Distance in km
 - Walking, bus, car, and train travel times
 - Links to get directions via Maps or Waze
 - The fellowship types available at that location
 
+<div class="screenshot-window screenshot-light">
+
 ![Nearest fellowship result showing distance and travel time options](/screenshots/fellowships-map-nearest-light.png)
+
+</div>
 
 ## Creating a fellowship
 
@@ -95,10 +82,9 @@ Click **+ New Fellowship** (Pastor and Admin only):
 
 <div class="screenshot-window screenshot-dark">
 
-![New Fellowship creation form](/screenshots/set-up-fellowship.png)
+![New Fellowship creation form in dark mode](/screenshots/set-up-fellowship.png)
 
 </div>
-
 
 | Field | Notes |
 |-------|-------|

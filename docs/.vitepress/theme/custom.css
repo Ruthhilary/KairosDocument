@@ -337,7 +337,7 @@
 
 /* ─── Screenshot presentation ────────────────────────────────────────────── */
 
-/* All doc images — clean, rounded, shadow, blurred purple gradient background */
+/* All doc images — clean, rounded, shadow, consistent size */
 .vp-doc img {
   display: block;
   margin: 2rem auto;
@@ -346,6 +346,7 @@
   box-shadow: 0 8px 32px rgba(109, 40, 217, 0.12), 0 2px 8px rgba(0, 0, 0, 0.08);
   max-width: 100%;
   background: var(--vp-c-bg-soft);
+  width: 100%;
 }
 
 .dark .vp-doc img {
@@ -353,7 +354,7 @@
   border-color: var(--vp-c-border);
 }
 
-/* Mac window chrome — wrap img in <div class="screenshot-window"> */
+/* Screenshot window — fixed consistent height so all screenshots same size */
 .screenshot-window {
   position: relative;
   margin: 2rem auto;
@@ -364,11 +365,13 @@
   border: 1px solid var(--vp-c-border);
 }
 
-/* Remove VitePress p wrapper margin/padding inside the window */
 .screenshot-window p {
   margin: 0 !important;
   padding: 0 !important;
   line-height: 0 !important;
+  /* Fixed height container so all screenshots render at same size */
+  height: 420px;
+  overflow: hidden;
 }
 
 .screenshot-window img,
@@ -379,6 +382,9 @@
   box-shadow: none !important;
   display: block;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
 }
 
 /* Titlebar strip */
@@ -503,6 +509,10 @@
 
   .screenshot-window {
     border-radius: 8px;
+  }
+
+  .screenshot-window p {
+    height: 260px;
   }
 
   .screenshot-phone {

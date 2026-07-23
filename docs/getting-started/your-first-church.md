@@ -10,10 +10,14 @@ Go to **Regions** in the sidebar and click **+ New Region**. Enter the region na
 
 Examples from Kharis Church: `Greater Accra (Ghana)`, `United Kingdom`, `Western Area (Sierra Leone)`.
 
-
 ## Step 2 — Create your first Branch
 
-Go to **Branches** and click **+ New Branch**.
+Go to **Branches** and click **+ New Branch**. Fill in:
+
+- Branch name (e.g. "Kharis London Central")
+- Branch type (Main, Satellite, Campus, Cell, or Online)
+- Region
+- City, address, phone, and email
 
 <div class="screenshot-window screenshot-light">
 
@@ -23,22 +27,25 @@ Go to **Branches** and click **+ New Branch**.
 
 <div class="screenshot-window screenshot-dark">
 
-![Branches page showing all church locations](/screenshots/branches-dark.png)
+![Branches page showing all church locations in dark mode](/screenshots/branches-dark.png)
 
-</div> Fill in:
-
-- Branch name (e.g. "Kharis London Central")
-- Branch type (Main, Satellite, Campus, Cell, or Online)
-- Region
-- City, address, phone, and email
-
-![Branches page showing all church locations](/screenshots/branches.png)
+</div>
 
 ## Step 3 — Assign a Pastor
 
 Once your branch exists, open it from **My Branch** and use the **Current Leadership** section to assign a Main Pastor. Only members who exist in the system can be assigned.
 
+<div class="screenshot-window screenshot-light">
+
 ![My Branch page showing branch details and current leadership team](/screenshots/my-branch.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![My Branch page in dark mode showing branch details and current leadership team](/screenshots/my-branch-dark.png)
+
+</div>
 
 ## Step 4 — Add Members
 
@@ -48,7 +55,7 @@ After adding members, any who self-registered will appear in the **Approval Queu
 
 ## Step 5 — Set up Fellowships
 
-Go to **Fellowships → + New Fellowship**
+Go to **Fellowships → + New Fellowship** and create your first small group. Assign a leader, set the fellowship type (K-Groups, Kharis Express, New Breeds, etc.), and add a meeting schedule.
 
 <div class="screenshot-window screenshot-light">
 
@@ -58,14 +65,13 @@ Go to **Fellowships → + New Fellowship**
 
 <div class="screenshot-window screenshot-dark">
 
-![New Fellowship setup form](/screenshots/set-up-fellowship.png)
+![New Fellowship setup form in dark mode](/screenshots/set-up-fellowship.png)
 
-</div> and create your first small group. Assign a leader, set the fellowship type (K-Groups, Kharis Express, New Breeds, etc.), and add a meeting schedule.
-
+</div>
 
 ## Step 6 — Set up Departments
 
-Go to **Departments → + New Department**.
+Go to **Departments → + New Department**. Select the ministry type (Choir, Ushers, Admin, Hospitality, etc.), assign a lead member, and optionally a deputy.
 
 <div class="screenshot-window screenshot-light">
 
@@ -75,10 +81,9 @@ Go to **Departments → + New Department**.
 
 <div class="screenshot-window screenshot-dark">
 
-![New Department setup form](/screenshots/set-up-department.png)
+![New Department setup form in dark mode](/screenshots/set-up-department.png)
 
-</div> Select the ministry type (Choir, Ushers, Admin, Hospitality, etc.), assign a lead member, and optionally a deputy.
-
+</div>
 
 ## Step 7 — You're ready
 
