@@ -3,7 +3,6 @@
   --kairos-purple: #6D28D9;
   --kairos-purple-deep: #451ebb;
   --kairos-gold: #D97706;
-  --screenshot-height: 420px;
 }
 
 /* ─── VitePress light mode overrides ────────────────────────────────────── */
@@ -199,12 +198,10 @@
   margin: 0 !important;
   padding: 0 !important;
   line-height: 0 !important;
-  height: var(--screenshot-height);
-  overflow: hidden;
   display: block;
 }
 
-/* Image fills the fixed container */
+/* Image fills the container — contain so nothing is cropped */
 .screenshot-window p img,
 .screenshot-window img {
   margin: 0 !important;
@@ -212,9 +209,10 @@
   border: none !important;
   box-shadow: none !important;
   width: 100% !important;
-  height: 100% !important;
-  object-fit: cover !important;
-  object-position: top left !important;
+  height: auto !important;
+  max-height: 500px;
+  object-fit: contain !important;
+  object-position: top center !important;
   display: block !important;
 }
 
@@ -227,8 +225,6 @@ html.dark .screenshot-dark { display: block !important; }
 
 /* ─── Mobile ─────────────────────────────────────────────────────────────── */
 @media (max-width: 768px) {
-  :root { --screenshot-height: 240px; }
-
   .vp-doc h1 { font-size: 1.5rem; }
   .vp-doc h2 { font-size: 1.1rem; }
   .VPDoc .container { padding: 0 1rem; }
@@ -238,13 +234,22 @@ html.dark .screenshot-dark { display: block !important; }
   .VPHero .tagline { font-size: 0.95rem; }
   .vp-doc .custom-block { font-size: 0.875rem; }
 
+  .screenshot-window p img,
+  .screenshot-window img {
+    max-height: 300px;
+  }
+
   /* Show dark/light toggle on mobile */
   .VPNavBarAppearance { display: flex !important; align-items: center; margin-right: 0.25rem; }
   .VPNavBarSocialLinks { display: none !important; }
 }
 
 @media (max-width: 480px) {
-  :root { --screenshot-height: 180px; }
   .vp-doc h1 { font-size: 1.3rem; }
   .VPHero .name { font-size: 1.7rem !important; }
+
+  .screenshot-window p img,
+  .screenshot-window img {
+    max-height: 220px;
+  }
 }
