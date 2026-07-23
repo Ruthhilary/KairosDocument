@@ -2,11 +2,6 @@
 
 The New Believers page tracks the discipleship journey of recently converted members.
 
-<div class="screenshot-window screenshot-light">
-
-![New Believers page showing Kanban board with Session 1 through Completed columns](/screenshots/new-believers.png)
-
-</div>
 
 
 ## The pipeline at a glance
@@ -59,5 +54,17 @@ Click the **Sessions** button to manage scheduled class sessions — dates, topi
 | Enrol members | No | Yes (New Believers dept leads) | Yes | Yes |
 | Advance stages | No | Yes (New Believers dept leads) | Yes | Yes |
 | Record session attendance | No | Yes (New Believers dept leads) | Yes | Yes |
+
+<div class="screenshot-window screenshot-light">
+
+![New Believers page showing Kanban board with session stages](/screenshots/new-believers.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![New Believers page showing Kanban board with session stages](/screenshots/new-believers-dark.png)
+
+</div>
 
 New Believers department leaders have visibility across the full discipleship pipeline for their branch. Regular department leaders without this specific grant cannot access this page.

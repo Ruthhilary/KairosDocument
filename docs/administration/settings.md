@@ -2,11 +2,6 @@
 
 App Settings let you manage your account security, display preferences, notifications, and privacy.
 
-<div class="screenshot-window screenshot-light">
-
-![App Settings page showing Account and Security, Display, Notifications, and Privacy sections](/screenshots/settings.png)
-
-</div>
 
 
 Access settings from your **Profile** page — click **Settings** in the top-right corner, or use the gear icon at the bottom of the sidebar.
@@ -58,5 +53,17 @@ Withdraw consent and request account deletion. **Coming soon.**
 ---
 
 ## Log Out
+
+<div class="screenshot-window screenshot-light">
+
+![App Settings page](/screenshots/settings.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![App Settings page](/screenshots/settings-dark.png)
+
+</div>
 
 The **Log Out** button appears at the bottom of the Settings page. Clicking it ends your session immediately and returns you to the login screen.

@@ -2,17 +2,8 @@
 
 The Members page is the church's member directory.
 
-<div class="screenshot-window screenshot-dark">
 
-![Members page showing member cards with approval status, contact info, and Deactivate buttons](/screenshots/members.png)
-
-</div>
-
-<div class="screenshot-window screenshot-light">
-
-![Members directory with search and filter options](/screenshots/members-2.png)
-
-</div> It shows every member in your branch (or across all branches for Admins) with their status, contact details, and fellowship assignment.
+ It shows every member in your branch (or across all branches for Admins) with their status, contact details, and fellowship assignment.
 
 
 ## The member directory
@@ -73,5 +64,11 @@ The **Safeguarding review** button opens a filtered view of members with safegua
 ## Deactivating a member
 
 Deactivating a member is a soft delete. Their profile, attendance history, follow-up notes, and group memberships are all preserved. They lose access to the system but their data remains intact for reporting.
+
+<div class="screenshot-window screenshot-light">
+
+![Members page showing member cards with approval status](/screenshots/members.png)
+
+</div>
 
 Only Pastors and Admins can deactivate members.

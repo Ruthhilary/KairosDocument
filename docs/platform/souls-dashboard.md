@@ -2,11 +2,6 @@
 
 The Souls Dashboard provides a dedicated analytics view for the souls pipeline.
 
-<div class="screenshot-window screenshot-dark">
-
-![Souls Dashboard showing total souls, critical count, pipeline status donut chart, and conversion funnel](/screenshots/souls-dashboard.png)
-
-</div>
 
 
 ## Summary stats
@@ -68,5 +63,17 @@ Shows how well souls are progressing through each stage — the percentage movin
 Click the **Refresh** button at the top-right to reload the dashboard with the latest data.
 
 ## Who can see the Souls Dashboard
+
+<div class="screenshot-window screenshot-light">
+
+![Souls Dashboard showing pipeline status and conversion funnel](/screenshots/souls-dashboard-light.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![Souls Dashboard showing pipeline status and conversion funnel](/screenshots/souls-dashboard.png)
+
+</div>
 
 Pastors and Admins. Leaders can see souls data scoped to their own department's follow-up assignments only.

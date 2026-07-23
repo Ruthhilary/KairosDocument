@@ -2,6 +2,18 @@
 
 Kairos is a church administration system built for Kharis Church. It replaces spreadsheets, WhatsApp threads, and disconnected tools with a single platform that every role in the church can use — from a first-time member to a church administrator managing multiple branches.
 
+<div class="screenshot-window screenshot-light">
+
+![Kairos login screen with Kharis Church branding](/screenshots/login.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![Kairos login screen with Kharis Church branding](/screenshots/login-dark.png)
+
+</div>
+
 ## The problem it solves
 
 Running a multi-branch church creates real data problems: member records scattered across branches, no visibility into who is following up new souls, no easy way to see which departments need attention, and no audit trail for approvals. Kairos brings all of that into one place.

@@ -2,11 +2,7 @@
 
 The dashboard is the first thing you see after logging in.
 
-<div class="screenshot-window screenshot-light">
-
-![Kairos admin dashboard showing stats, upcoming fellowships, and mission control reports](/screenshots/dashboard.png)
-
-</div> It gives you an at-a-glance view of what's happening in your church, scoped to your role.
+ It gives you an at-a-glance view of what's happening in your church, scoped to your role.
 
 
 ## What you see
@@ -60,6 +56,18 @@ A scripture displayed at the bottom-right of the dashboard each day.
 ---
 
 ## Role differences
+
+<div class="screenshot-window screenshot-light">
+
+![Kairos admin dashboard showing stats, upcoming fellowships, and mission control reports](/screenshots/dashboard.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![Kairos admin dashboard showing stats, upcoming fellowships, and mission control reports](/screenshots/dashboard-dark.png)
+
+</div>
 
 - **Admin** — sees data across all branches, total congregation includes everyone
 - **Pastor** — sees only their branch; "Total Branches" is not shown

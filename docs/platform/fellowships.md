@@ -2,11 +2,18 @@
 
 Fellowships are the small groups within each branch. Kairos supports multiple fellowship types, a map view for finding nearby groups, and full meeting and attendance tracking.
 
-<div class="screenshot-window screenshot-dark">
+<div class="screenshot-window screenshot-light">
 
 ![Fellowships page showing fellowship cards with type badges and meeting schedules](/screenshots/fellowships.png)
 
 </div>
+
+<div class="screenshot-window screenshot-dark">
+
+![Fellowships page showing fellowship cards with type badges and meeting schedules](/screenshots/fellowship-dark.png)
+
+</div>
+
 
 ## Fellowship types
 
@@ -41,11 +48,13 @@ Click **Find on Map** to open the interactive map view. Fellowships are plotted 
 
 </div>
 
-<div class="screenshot-window screenshot-light">
+<div class="screenshot-window screenshot-dark">
 
-![Fellowships map in dark mode](/screenshots/fellowships-map-dark.png)
+![Fellowships map view in dark mode](/screenshots/fellowships-map-dark.png)
 
 </div>
+
+
 
 ### Map popup
 
@@ -53,14 +62,26 @@ Click any marker on the map to see the fellowship name, branch, and next meeting
 
 ### Nearest fellowship
 
-Search by postcode or country to find the closest fellowship. Kairos shows:
+Search by postcode or country to find the closest fellowship.
+
+<div class="screenshot-window screenshot-light">
+
+![Nearest fellowship result showing distance and travel time options](/screenshots/fellowships-map-nearest-light.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![Nearest fellowship result showing distance and travel time options](/screenshots/fellowships-map-nearest-light.png)
+
+</div> Kairos shows:
 
 - Distance in km
 - Walking, bus, car, and train travel times
 - Links to get directions via Maps or Waze
 - The fellowship types available at that location
 
-![Nearest fellowship result showing distance and travel time options](/screenshots/fellowships-map-nearest.png)
+![Nearest fellowship result showing distance and travel time options](/screenshots/fellowships-map-nearest-light.png)
 
 ## Creating a fellowship
 
@@ -68,9 +89,16 @@ Click **+ New Fellowship** (Pastor and Admin only):
 
 <div class="screenshot-window screenshot-light">
 
+![New Fellowship creation form](/screenshots/set-up-fellowship-light.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
 ![New Fellowship creation form](/screenshots/set-up-fellowship.png)
 
 </div>
+
 
 | Field | Notes |
 |-------|-------|

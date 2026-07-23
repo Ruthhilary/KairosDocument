@@ -26,6 +26,18 @@ All six forms are accessible to Admins and Pastors only. Leaders who are part of
 
 Click **Submissions** under the Administration section to review all captured forms.
 
+<div class="screenshot-window screenshot-light">
+
+![Form Submissions page with filters and Export CSV button](/screenshots/form-submissions.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![Form Submissions page with filters and Export CSV button](/screenshots/form-submissions-dark.png)
+
+</div>
+
 ![Form Submissions page with filters for form type, status, date range, and Export CSV button](/screenshots/form-submissions.png)
 
 
@@ -47,6 +59,8 @@ Click **Export CSV** to download all filtered submissions as a spreadsheet. This
 Click **Dormant attendees** to bulk-archive stale form-created contact shells — people who came through a visitor or altar call form but have had no further engagement. This keeps the member directory clean without permanently deleting any records.
 
 ## How form submissions connect to other modules
+
+
 
 - **New Believers Class** submission → automatically creates an enrolment in the [New Believers](/platform/new-believers) pipeline
 - **First-Time Visitor** submission → creates a contact record for follow-up

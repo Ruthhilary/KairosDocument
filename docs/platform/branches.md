@@ -42,6 +42,18 @@ Only Admins can deactivate branches.
 
 Members and Pastors access their own branch directly from the **My Branch** link in the sidebar.
 
+<div class="screenshot-window screenshot-light">
+
+![My Branch page showing branch details, current leadership, and quick actions](/screenshots/my-branch.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![My Branch page showing branch details, current leadership, and quick actions](/screenshots/my-branch-dark.png)
+
+</div>
+
 ![My Branch page showing branch details, current leadership, and quick actions](/screenshots/my-branch.png)
 
 
@@ -54,5 +66,17 @@ Shows the city, address, phone, email, total members, and active status.
 Lists the current Main Pastor and any Elders assigned to the branch, shown with their names and roles.
 
 ### Quick Actions
+
+<div class="screenshot-window screenshot-light">
+
+![Branches page showing all church locations](/screenshots/branches.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![Branches page showing all church locations](/screenshots/branches-dark.png)
+
+</div>
 
 Shortcut buttons to **View Members**, **View Fellowships**, and **Reports** for the branch.

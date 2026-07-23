@@ -2,11 +2,6 @@
 
 The Souls Pipeline is the operational view for managing every person captured through outreach.
 
-<div class="screenshot-window screenshot-light">
-
-![Souls Pipeline showing Kanban columns for New, Following Up, and Converted with soul cards](/screenshots/souls-pipeline.png)
-
-</div>
 
 
 ## Pipeline stages
@@ -83,5 +78,17 @@ The coloured dot on each soul card indicates follow-up health:
 The **Critical** and **Monitor** tab filters at the top make it easy to prioritise who needs attention today.
 
 ## Moving to New Believers
+
+<div class="screenshot-window screenshot-light">
+
+![Souls Pipeline showing Kanban columns for New, Following Up, and Converted](/screenshots/souls-pipeline.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![Souls Pipeline showing Kanban columns for New, Following Up, and Converted](/screenshots/souls-pipeline-dark.png)
+
+</div>
 
 When a soul is marked as **Converted**, an enrolment is automatically created in the [New Believers](/platform/new-believers) pipeline. The soul's record is linked to the resulting member record once they register.

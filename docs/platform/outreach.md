@@ -47,6 +47,18 @@ After a program, coordinators and leaders log the souls reached by linking soul 
 
 ## Who can manage outreach
 
+<div class="screenshot-window screenshot-light">
+
+![Outreach Programs page showing active and past programs](/screenshots/outreach.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![Outreach Programs page showing active and past programs](/screenshots/outreach-dark.png)
+
+</div>
+
 | Action | Member | Leader | Pastor | Admin |
 |--------|--------|--------|--------|-------|
 | View programs | Yes (own branch) | Yes | Yes | Yes |

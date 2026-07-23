@@ -2,11 +2,6 @@
 
 Welcome to the Kairos documentation. This guide covers everything you need to know about using the Kairos church administration system — whether you're a church member, a department leader, a pastor, or a system administrator.
 
-<div class="screenshot-window screenshot-dark">
-
-![Kairos platform overview showing the full navigation and dashboard](/screenshots/introduction.png)
-
-</div>
 
 ## Who is this for?
 
@@ -25,6 +20,18 @@ Kairos has four types of users, each with a different experience:
 - For specific features, use the **Platform** section in the sidebar.
 
 ## What Kairos covers
+
+<div class="screenshot-window screenshot-light">
+
+![Kairos platform overview showing the full navigation and dashboard](/screenshots/introduction-light.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![Kairos platform overview showing the full navigation and dashboard](/screenshots/introduction.png)
+
+</div>
 
 | Module | What it does |
 |--------|-------------|

@@ -13,7 +13,19 @@ Examples from Kharis Church: `Greater Accra (Ghana)`, `United Kingdom`, `Western
 
 ## Step 2 — Create your first Branch
 
-Go to **Branches** and click **+ New Branch**. Fill in:
+Go to **Branches** and click **+ New Branch**.
+
+<div class="screenshot-window screenshot-light">
+
+![Branches page showing all church locations](/screenshots/branches.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![Branches page showing all church locations](/screenshots/branches-dark.png)
+
+</div> Fill in:
 
 - Branch name (e.g. "Kharis London Central")
 - Branch type (Main, Satellite, Campus, Cell, or Online)
@@ -36,23 +48,37 @@ After adding members, any who self-registered will appear in the **Approval Queu
 
 ## Step 5 — Set up Fellowships
 
-Go to **Fellowships → + New Fellowship** and create your first small group. Assign a leader, set the fellowship type (K-Groups, Kharis Express, New Breeds, etc.), and add a meeting schedule.
+Go to **Fellowships → + New Fellowship**
+
+<div class="screenshot-window screenshot-light">
+
+![New Fellowship setup form](/screenshots/set-up-fellowship-light.png)
+
+</div>
 
 <div class="screenshot-window screenshot-dark">
 
 ![New Fellowship setup form](/screenshots/set-up-fellowship.png)
 
-</div>
+</div> and create your first small group. Assign a leader, set the fellowship type (K-Groups, Kharis Express, New Breeds, etc.), and add a meeting schedule.
+
 
 ## Step 6 — Set up Departments
 
-Go to **Departments → + New Department**. Select the ministry type (Choir, Ushers, Admin, Hospitality, etc.), assign a lead member, and optionally a deputy.
+Go to **Departments → + New Department**.
+
+<div class="screenshot-window screenshot-light">
+
+![New Department setup form](/screenshots/set-up-department-light.png)
+
+</div>
 
 <div class="screenshot-window screenshot-dark">
 
 ![New Department setup form](/screenshots/set-up-department.png)
 
-</div>
+</div> Select the ministry type (Choir, Ushers, Admin, Hospitality, etc.), assign a lead member, and optionally a deputy.
+
 
 ## Step 7 — You're ready
 
