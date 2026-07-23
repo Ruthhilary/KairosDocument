@@ -201,7 +201,7 @@
   display: block;
 }
 
-/* Image — natural size, no forcing */
+/* Image — natural size, no cropping, no zooming */
 .screenshot-window p img,
 .screenshot-window img {
   margin: 0 !important;
@@ -211,29 +211,6 @@
   width: 100% !important;
   height: auto !important;
   display: block !important;
-}
-
-/* Light and dark pair: both use the same fixed height so switching
-   modes doesn't change the layout. object-fit cover crops from top. */
-.screenshot-window.screenshot-light,
-.screenshot-window.screenshot-dark {
-  height: 460px;
-  overflow: hidden;
-}
-
-.screenshot-window.screenshot-light p,
-.screenshot-window.screenshot-dark p {
-  height: 100% !important;
-}
-
-.screenshot-window.screenshot-light p img,
-.screenshot-window.screenshot-dark p img,
-.screenshot-window.screenshot-light img,
-.screenshot-window.screenshot-dark img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: cover !important;
-  object-position: top center !important;
 }
 
 /* 3. Light/dark switching — hide the correct one */
