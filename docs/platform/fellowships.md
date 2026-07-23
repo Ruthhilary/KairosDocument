@@ -82,13 +82,13 @@ Click **+ New Fellowship** (Pastor and Admin only):
 
 <div class="screenshot-window screenshot-light">
 
-![New Fellowship creation form](/screenshots/set-up-fellowship-light.png)
+![New Fellowship creation form](/screenshots/creating-a-fellowship.png)
 
 </div>
 
 <div class="screenshot-window screenshot-dark">
 
-![New Fellowship creation form in dark mode](/screenshots/set-up-fellowship.png)
+![New Fellowship creation form in dark mode](/screenshots/creating-a-fellowship-dark.png)
 
 </div>
 

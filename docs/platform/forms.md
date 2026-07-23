@@ -37,13 +37,13 @@ Click **Submissions** under the Administration section to review all captured fo
 
 <div class="screenshot-window screenshot-light">
 
-![Form Submissions page with filters for form type, status, date range, and Export CSV button](/screenshots/form-submissions.png)
+![Form Submissions page with filters for form type, status, date range, and Export CSV button](/screenshots/form-submission.png)
 
 </div>
 
 <div class="screenshot-window screenshot-dark">
 
-![Form Submissions page in dark mode with filters and Export CSV button](/screenshots/form-submissions-dark.png)
+![Form Submissions page in dark mode with filters and Export CSV button](/screenshots/form-submission-dark.png)
 
 </div>
 
