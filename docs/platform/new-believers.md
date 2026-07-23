@@ -2,7 +2,7 @@
 
 The New Believers page tracks the discipleship journey of recently converted members.
 
-<div class="screenshot-window screenshot-dark">
+<div class="screenshot-window screenshot-light">
 
 ![New Believers page showing Kanban board with Session 1 through Completed columns](/screenshots/new-believers.png)
 

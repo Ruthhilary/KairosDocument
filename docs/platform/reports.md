@@ -2,7 +2,7 @@
 
 The Reports page gives you a clear picture of your church's health — attendance trends, membership growth, outreach outcomes, and engagement scores. All data is scoped to your role.
 
-<div class="screenshot-window screenshot-dark">
+<div class="screenshot-window screenshot-light">
 
 ![Reports and Analytics page showing summary stats, weekly attendance rate chart, and top fellowships](/screenshots/reports.png)
 

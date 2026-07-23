@@ -2,7 +2,7 @@
 
 Fellowships are the small groups within each branch. Kairos supports multiple fellowship types, a map view for finding nearby groups, and full meeting and attendance tracking.
 
-<div class="screenshot-window screenshot-light">
+<div class="screenshot-window screenshot-dark">
 
 ![Fellowships page showing fellowship cards with type badges and meeting schedules](/screenshots/fellowships.png)
 
@@ -41,7 +41,7 @@ Click **Find on Map** to open the interactive map view. Fellowships are plotted 
 
 </div>
 
-<div class="screenshot-window screenshot-dark">
+<div class="screenshot-window screenshot-light">
 
 ![Fellowships map in dark mode](/screenshots/fellowships-map-dark.png)
 

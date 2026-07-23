@@ -2,7 +2,7 @@
 
 The Members page is the church's member directory.
 
-<div class="screenshot-window screenshot-light">
+<div class="screenshot-window screenshot-dark">
 
 ![Members page showing member cards with approval status, contact info, and Deactivate buttons](/screenshots/members.png)
 

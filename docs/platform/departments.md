@@ -2,7 +2,7 @@
 
 Departments are the ministry teams within each branch.
 
-<div class="screenshot-window screenshot-light">
+<div class="screenshot-window screenshot-dark">
 
 ![Departments page showing ministry team cards with lead member, member count, and pending badges](/screenshots/departments.png)
 
