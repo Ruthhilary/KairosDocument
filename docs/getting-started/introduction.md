@@ -2,7 +2,7 @@
 
 Welcome to the Kairos documentation. This guide covers everything you need to know about using the Kairos church administration system — whether you're a church member, a department leader, a pastor, or a system administrator.
 
-<div class="screenshot-window">
+<div class="screenshot-window screenshot-dark">
 
 ![Kairos platform overview showing the full navigation and dashboard](/screenshots/introduction.png)
 

@@ -598,3 +598,25 @@
     display: none !important;
   }
 }
+
+/* ─── Light / dark mode image switching ─────────────────────────────────── */
+
+/* In light mode: hide dark screenshots, show light ones */
+html:not(.dark) .screenshot-dark { display: none !important; }
+html:not(.dark) .screenshot-light { display: block; }
+
+/* In dark mode: hide light screenshots, show dark ones */
+html.dark .screenshot-light { display: none !important; }
+html.dark .screenshot-dark { display: block; }
+
+/* Remove phone frame wrappers — no phone screenshots */
+.screenshot-phone {
+  width: auto;
+  max-width: 100%;
+}
+.screenshot-phone img,
+.screenshot-phone p img {
+  border-radius: 12px !important;
+  border: 8px solid transparent !important;
+  box-shadow: 0 8px 32px rgba(109, 40, 217, 0.12), 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+}

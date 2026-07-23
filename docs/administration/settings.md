@@ -2,7 +2,7 @@
 
 App Settings let you manage your account security, display preferences, notifications, and privacy.
 
-<div class="screenshot-window">
+<div class="screenshot-window screenshot-light">
 
 ![App Settings page showing Account and Security, Display, Notifications, and Privacy sections](/screenshots/settings.png)
 

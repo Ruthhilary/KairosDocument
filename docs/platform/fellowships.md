@@ -2,7 +2,7 @@
 
 Fellowships are the small groups within each branch. Kairos supports multiple fellowship types, a map view for finding nearby groups, and full meeting and attendance tracking.
 
-<div class="screenshot-window">
+<div class="screenshot-window screenshot-light">
 
 ![Fellowships page showing fellowship cards with type badges and meeting schedules](/screenshots/fellowships.png)
 
@@ -35,13 +35,13 @@ Each card shows:
 
 Click **Find on Map** to open the interactive map view. Fellowships are plotted by their branch location, colour-coded by type.
 
-<div class="screenshot-window">
+<div class="screenshot-window screenshot-light">
 
 ![Fellowships map view showing fellowship markers across the world](/screenshots/fellowships-map-light.png)
 
 </div>
 
-<div class="screenshot-phone">
+<div class="screenshot-window screenshot-dark">
 
 ![Fellowships map in dark mode](/screenshots/fellowships-map-dark.png)
 
@@ -60,17 +60,13 @@ Search by postcode or country to find the closest fellowship. Kairos shows:
 - Links to get directions via Maps or Waze
 - The fellowship types available at that location
 
-<div class="screenshot-phone">
-
 ![Nearest fellowship result showing distance and travel time options](/screenshots/fellowships-map-nearest.png)
-
-</div>
 
 ## Creating a fellowship
 
 Click **+ New Fellowship** (Pastor and Admin only):
 
-<div class="screenshot-window">
+<div class="screenshot-window screenshot-light">
 
 ![New Fellowship creation form](/screenshots/set-up-fellowship.png)
 

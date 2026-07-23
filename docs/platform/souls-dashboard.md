@@ -2,7 +2,11 @@
 
 The Souls Dashboard provides a dedicated analytics view for the souls pipeline.
 
+<div class="screenshot-window screenshot-dark">
+
 ![Souls Dashboard showing total souls, critical count, pipeline status donut chart, and conversion funnel](/screenshots/souls-dashboard.png)
+
+</div>
 
 
 ## Summary stats

@@ -2,7 +2,11 @@
 
 The Souls Pipeline is the operational view for managing every person captured through outreach.
 
+<div class="screenshot-window screenshot-dark">
+
 ![Souls Pipeline showing Kanban columns for New, Following Up, and Converted with soul cards](/screenshots/souls-pipeline.png)
+
+</div>
 
 
 ## Pipeline stages

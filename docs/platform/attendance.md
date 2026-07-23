@@ -2,7 +2,7 @@
 
 The Attendance page covers service attendance — Sunday services, midweek services, and special services. Fellowship meeting attendance is managed separately from within each fellowship.
 
-<div class="screenshot-window">
+<div class="screenshot-window screenshot-light">
 
 ![A single Sunday Service check-in showing members and their attendance status](/screenshots/attendance.png)
 

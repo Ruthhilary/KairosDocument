@@ -2,7 +2,7 @@
 
 The dashboard is the first thing you see after logging in.
 
-<div class="screenshot-window">
+<div class="screenshot-window screenshot-dark">
 
 ![Kairos admin dashboard showing stats, upcoming fellowships, and mission control reports](/screenshots/dashboard.png)
 

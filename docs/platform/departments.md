@@ -2,7 +2,7 @@
 
 Departments are the ministry teams within each branch.
 
-<div class="screenshot-window">
+<div class="screenshot-window screenshot-light">
 
 ![Departments page showing ministry team cards with lead member, member count, and pending badges](/screenshots/departments.png)
 
@@ -51,7 +51,7 @@ Each card shows:
 
 Click **+ New Department** (Pastor and Admin only):
 
-<div class="screenshot-window">
+<div class="screenshot-window screenshot-light">
 
 ![New Department creation form](/screenshots/set-up-department.png)
 
