@@ -8,6 +8,12 @@ The Members page is the church's member directory. It shows every member in your
 
 </div>
 
+<div class="screenshot-window screenshot-dark">
+
+![Members page in dark mode showing member cards with approval status, contact info, and Deactivate buttons](/screenshots/members-dark.png)
+
+</div>
+
 ## The member directory
 
 Each member card shows:
