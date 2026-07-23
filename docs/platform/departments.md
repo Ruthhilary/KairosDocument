@@ -1,11 +1,20 @@
 # Departments
 
-Departments are the ministry teams within each branch.
+Departments are the ministry teams within each branch. Kairos supports the full range of Kharis Church ministries.
 
+<div class="screenshot-window screenshot-light">
+
+![Departments page showing ministry team cards with lead member, member count, and pending badges](/screenshots/departments.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![Departments page in dark mode showing ministry team cards](/screenshots/departments-dark.png)
+
+</div>
 
 ## Ministry types
-
-Kairos supports all Kharis Church ministry departments:
 
 | Ministry | Description |
 |----------|-------------|
@@ -54,10 +63,9 @@ Click **+ New Department** (Pastor and Admin only):
 
 <div class="screenshot-window screenshot-dark">
 
-![New Department creation form](/screenshots/set-up-department.png)
+![New Department creation form in dark mode](/screenshots/set-up-department.png)
 
 </div>
-
 
 | Field | Notes |
 |-------|-------|
@@ -83,18 +91,6 @@ When a department card shows a **pending** badge, the department leader has unap
 Leaders can view their full department roster including member contact details, join dates, and follow-up notes.
 
 ## Who can manage departments
-
-<div class="screenshot-window screenshot-light">
-
-![Departments page showing ministry team cards](/screenshots/departments.png)
-
-</div>
-
-<div class="screenshot-window screenshot-dark">
-
-![Departments page showing ministry team cards](/screenshots/departments-dark.png)
-
-</div>
 
 | Action | Member | Leader | Pastor | Admin |
 |--------|--------|--------|--------|-------|

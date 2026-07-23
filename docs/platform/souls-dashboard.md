@@ -1,8 +1,18 @@
 # Souls Dashboard
 
-The Souls Dashboard provides a dedicated analytics view for the souls pipeline.
+The Souls Dashboard provides a dedicated analytics view for the souls pipeline — showing how people captured through outreach are progressing through follow-up, and how many are converting.
 
+<div class="screenshot-window screenshot-light">
 
+![Souls Dashboard showing total souls, pipeline status donut chart, and conversion funnel](/screenshots/souls-dashboard-light.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![Souls Dashboard in dark mode showing total souls, pipeline status donut chart, and conversion funnel](/screenshots/souls-dashboard.png)
+
+</div>
 
 ## Summary stats
 
@@ -19,24 +29,15 @@ Click any stat card to jump to a filtered view of those specific souls in the [S
 
 ## Time range filters
 
-Use the tabs to change the data window: **Week**, **1M**, **3M**, **6M**, or **Custom**. The date range shown confirms what period the data covers.
-
-Filter by specific outreach program using the **Program** dropdown on the right.
+Use the tabs to change the data window: **Week**, **1M**, **3M**, **6M**, or **Custom**. Filter by specific outreach program using the **Program** dropdown on the right.
 
 ## Souls Pipeline Status
 
-A donut chart showing the breakdown of souls across three follow-up health states: **Critical**, **Monitor**, and **On Track**. The legend below the chart shows exact counts for each.
+A donut chart showing the breakdown of souls across three follow-up health states: **Critical**, **Monitor**, and **On Track**.
 
 ## Souls by Status
 
-A bar chart showing how many souls are in each pipeline stage:
-- New
-- Following Up
-- Interested
-- Converted
-- Not Interested
-
-Click any bar to view the souls in that status in the pipeline.
+A bar chart showing how many souls are in each pipeline stage: New, Following Up, Interested, Converted, Not Interested. Click any bar to view the souls in that status.
 
 ## Follow-up Status
 
@@ -44,36 +45,12 @@ A chart showing the health of follow-up activity — how many souls have been co
 
 ## Conversion Funnel
 
-A horizontal bar chart showing the full funnel from top to bottom:
-- New
-- Following Up
-- Interested
-- Converted
-
-The width of each bar represents the number of souls at that stage. A healthy funnel narrows progressively — a wide "Interested" bar with a thin "Converted" bar indicates follow-up is strong but closing is weak.
-
-Click any bar to view the souls at that stage.
+A horizontal bar chart showing the full funnel from New → Following Up → Interested → Converted. Click any bar to view the souls at that stage.
 
 ## Stage Assimilation Rates
 
-Shows how well souls are progressing through each stage — the percentage moving forward vs. staying stuck. This helps identify which stages need more attention.
-
-## Refresh
-
-Click the **Refresh** button at the top-right to reload the dashboard with the latest data.
+Shows how well souls are progressing through each stage — the percentage moving forward vs. staying stuck.
 
 ## Who can see the Souls Dashboard
-
-<div class="screenshot-window screenshot-light">
-
-![Souls Dashboard showing pipeline status and conversion funnel](/screenshots/souls-dashboard-light.png)
-
-</div>
-
-<div class="screenshot-window screenshot-dark">
-
-![Souls Dashboard showing pipeline status and conversion funnel](/screenshots/souls-dashboard.png)
-
-</div>
 
 Pastors and Admins. Leaders can see souls data scoped to their own department's follow-up assignments only.

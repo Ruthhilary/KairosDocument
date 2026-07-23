@@ -10,7 +10,7 @@ Kairos is a church administration system built for Kharis Church. It replaces sp
 
 <div class="screenshot-window screenshot-dark">
 
-![Kairos login screen with Kharis Church branding](/screenshots/login-dark.png)
+![Kairos login screen with Kharis Church branding in dark mode](/screenshots/login-dark.png)
 
 </div>
 
@@ -29,8 +29,6 @@ That's the design principle behind Kairos.
 **One login, everything in context.** There's no "select your role" step after logging in. Your permissions are built into your token when you sign in. The UI shows exactly what your role allows — nothing more, nothing less.
 
 **Branch isolation is built in.** Data never leaks across branches by accident. A pastor in London cannot see member records from Accra. Admins have explicit cross-branch access.
-
-![Kairos login screen — Kharis Church branding with the verse "Let all things be done decently and in order"](/screenshots/login.png)
 
 ## The church it's built for
 

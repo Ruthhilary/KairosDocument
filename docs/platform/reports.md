@@ -2,6 +2,17 @@
 
 The Reports page gives you a clear picture of your church's health — attendance trends, membership growth, outreach outcomes, and engagement scores. All data is scoped to your role.
 
+<div class="screenshot-window screenshot-light">
+
+![Reports and Analytics page showing summary stats, weekly attendance rate chart, and top fellowships](/screenshots/reports.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![Reports and Analytics page in dark mode showing summary stats and weekly attendance chart](/screenshots/reports-dark.png)
+
+</div>
 
 ## Summary stats
 
@@ -44,18 +55,6 @@ A bar chart showing which fellowships have the highest meeting attendance. Click
 | Pastor | Their branch only |
 | Leader | Their department or fellowship only |
 | Member | Their own attendance only — via **My Attendance** in the sidebar |
-
-<div class="screenshot-window screenshot-light">
-
-![Reports and Analytics page showing summary stats and weekly attendance chart](/screenshots/reports.png)
-
-</div>
-
-<div class="screenshot-window screenshot-dark">
-
-![Reports and Analytics page showing summary stats and weekly attendance chart](/screenshots/reports-dark.png)
-
-</div>
 
 ::: tip Members and Reports
 Members do not access the main Reports page. Their personal attendance history is available separately via **My Attendance** in the sidebar — showing their 12-week rate, punctuality breakdown, streak, and service history. Only they, their pastor, and admins can see this.

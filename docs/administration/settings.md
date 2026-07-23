@@ -1,8 +1,18 @@
 # Settings
 
-App Settings let you manage your account security, display preferences, notifications, and privacy.
+App Settings let you manage your account security, display preferences, notifications, and privacy. Every user has access to their own settings.
 
+<div class="screenshot-window screenshot-light">
 
+![App Settings page showing Account and Security, Display, Notifications, and Privacy sections](/screenshots/settings.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![App Settings page in dark mode](/screenshots/settings-dark.png)
+
+</div>
 
 Access settings from your **Profile** page — click **Settings** in the top-right corner, or use the gear icon at the bottom of the sidebar.
 
@@ -34,7 +44,7 @@ Currently English only. Additional languages are coming in a future release.
 
 ### Email preferences
 
-Manage which email categories reach your inbox and how often. Choose the types of notifications you want to receive — announcements, reminders, alerts, and more.
+Manage which email categories reach your inbox and how often.
 
 ## Privacy & Data
 
@@ -50,20 +60,6 @@ Download a copy of your personal data (GDPR right to portability). **Coming soon
 
 Withdraw consent and request account deletion. **Coming soon.**
 
----
-
 ## Log Out
-
-<div class="screenshot-window screenshot-light">
-
-![App Settings page](/screenshots/settings.png)
-
-</div>
-
-<div class="screenshot-window screenshot-dark">
-
-![App Settings page](/screenshots/settings-dark.png)
-
-</div>
 
 The **Log Out** button appears at the bottom of the Settings page. Clicking it ends your session immediately and returns you to the login screen.

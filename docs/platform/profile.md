@@ -1,9 +1,18 @@
 # Profile
 
-Your Profile page shows your personal information, your place in the church, and your leadership roles.
+Your Profile page shows your personal information, your place in the church, and your leadership roles. Every user in Kairos has a profile.
+
+<div class="screenshot-window screenshot-light">
 
 ![Profile page showing personal information, address, home branch, fellowships, leadership, and emergency contact](/screenshots/profile.png)
 
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![Profile page in dark mode showing personal information and community membership](/screenshots/profile-dark.png)
+
+</div>
 
 ## Sections
 
@@ -45,20 +54,6 @@ Click **Edit Profile** in the top-right corner to update your personal informati
 ## Settings
 
 Click **Settings** in the top-right to access your [App Settings](/administration/settings).
-
----
-
-<div class="screenshot-window screenshot-light">
-
-![Profile page showing personal information and community membership](/screenshots/profile.png)
-
-</div>
-
-<div class="screenshot-window screenshot-dark">
-
-![Profile page showing personal information and community membership](/screenshots/profile-dark.png)
-
-</div>
 
 ::: tip What members can see
 Every user can see their own complete profile. Members cannot view other members' profiles. Pastors can view all profiles in their branch. Admins can view all profiles across all branches.

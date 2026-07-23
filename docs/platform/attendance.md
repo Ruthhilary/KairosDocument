@@ -2,7 +2,17 @@
 
 The Attendance page covers service attendance — Sunday services, midweek services, and special services. Fellowship meeting attendance is managed separately from within each fellowship.
 
+<div class="screenshot-window screenshot-light">
 
+![Service Attendance page showing a list of Sunday services across branches with Check In links](/screenshots/attendance.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![Service Attendance page in dark mode showing Sunday services with Check In links](/screenshots/attendance-dark.png)
+
+</div>
 
 ## Service list
 
@@ -49,18 +59,15 @@ Every member has a personal **My Attendance** page in the sidebar. This is priva
 
 <div class="screenshot-window screenshot-light">
 
-![My Attendance page showing attendance rate, punctuality breakdown and service history](/screenshots/my-attendance.png)
+![My Attendance page showing 67% attendance rate, punctuality breakdown, streak, and service history](/screenshots/my-attendance.png)
 
 </div>
 
 <div class="screenshot-window screenshot-dark">
 
-![My Attendance page showing attendance rate, punctuality breakdown and service history](/screenshots/my-attendance-dark.png)
+![My Attendance page in dark mode showing attendance rate, punctuality breakdown, and service history](/screenshots/my-attendance-dark.png)
 
 </div>
-
-![My Attendance page showing 67% attendance rate, punctuality breakdown, streak, and service history](/screenshots/my-attendance.png)
-
 
 ### What it shows
 
@@ -77,17 +84,5 @@ A bar chart showing how your services split across Present, Late, Virtual, and M
 How many consecutive services you've attended in a row.
 
 ### Service history
-
-<div class="screenshot-window screenshot-light">
-
-![Service Attendance page showing services with Check In links](/screenshots/attendance.png)
-
-</div>
-
-<div class="screenshot-window screenshot-dark">
-
-![Service Attendance page showing services with Check In links](/screenshots/attendance-dark.png)
-
-</div>
 
 A list of every service in the 12-week window, oldest first, with the attendance status for each (Missed, Present, Virtual, Late).

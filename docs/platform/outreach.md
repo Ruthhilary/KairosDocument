@@ -1,9 +1,18 @@
 # Outreach Programs
 
-The Outreach Programs page is where evangelism events are created and managed.
+The Outreach Programs page is where evangelism events are created and managed. Programs are branch-scoped — members can only register for programs within their own branch.
+
+<div class="screenshot-window screenshot-light">
 
 ![Outreach Programs page showing Active Programs and Past Programs tabs with program table](/screenshots/outreach.png)
 
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![Outreach Programs page in dark mode showing Active Programs and Past Programs tabs](/screenshots/outreach-dark.png)
+
+</div>
 
 ## Program list
 
@@ -43,21 +52,9 @@ Members can register themselves as workers on any active program within their br
 
 ## Capturing souls
 
-After a program, coordinators and leaders log the souls reached by linking soul capture records to the program. Each soul captured at the event appears in the [Souls Pipeline](/platform/souls-dashboard) and contributes to the **Souls Reached** count.
+After a program, coordinators and leaders log the souls reached by linking soul capture records to the program. Each soul captured at the event appears in the [Souls Pipeline](/platform/souls-pipeline) and contributes to the **Souls Reached** count.
 
 ## Who can manage outreach
-
-<div class="screenshot-window screenshot-light">
-
-![Outreach Programs page showing active and past programs](/screenshots/outreach.png)
-
-</div>
-
-<div class="screenshot-window screenshot-dark">
-
-![Outreach Programs page showing active and past programs](/screenshots/outreach-dark.png)
-
-</div>
 
 | Action | Member | Leader | Pastor | Admin |
 |--------|--------|--------|--------|-------|
