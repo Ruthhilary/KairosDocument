@@ -193,7 +193,7 @@
   pointer-events: none;
 }
 
-/* Image wrapper — FIXED HEIGHT for consistency */
+/* Image wrapper */
 .screenshot-window p {
   margin: 0 !important;
   padding: 0 !important;
@@ -201,7 +201,7 @@
   display: block;
 }
 
-/* Image fills the container — contain so nothing is cropped */
+/* Image — natural size, no forcing */
 .screenshot-window p img,
 .screenshot-window img {
   margin: 0 !important;
@@ -210,9 +210,6 @@
   box-shadow: none !important;
   width: 100% !important;
   height: auto !important;
-  max-height: 500px;
-  object-fit: contain !important;
-  object-position: top center !important;
   display: block !important;
 }
 
@@ -233,13 +230,6 @@ html.dark .screenshot-dark { display: block !important; }
   .VPHero .name { font-size: 2rem !important; }
   .VPHero .tagline { font-size: 0.95rem; }
   .vp-doc .custom-block { font-size: 0.875rem; }
-
-  .screenshot-window p img,
-  .screenshot-window img {
-    max-height: 300px;
-  }
-
-  /* Show dark/light toggle on mobile */
   .VPNavBarAppearance { display: flex !important; align-items: center; margin-right: 0.25rem; }
   .VPNavBarSocialLinks { display: none !important; }
 }
@@ -247,9 +237,4 @@ html.dark .screenshot-dark { display: block !important; }
 @media (max-width: 480px) {
   .vp-doc h1 { font-size: 1.3rem; }
   .VPHero .name { font-size: 1.7rem !important; }
-
-  .screenshot-window p img,
-  .screenshot-window img {
-    max-height: 220px;
-  }
 }
