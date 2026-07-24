@@ -14,12 +14,6 @@ Regions are geographic groupings that organise your branches. Every branch must 
 
 </div>
 
-::: tip Add the Regions screenshot
-Take a screenshot of the Regions page and save it as `regions.png` in the screenshots folder to display it here.
-:::
-
-
-
 ## What regions do
 
 Regions let you group branches by geography — for example, all UK branches in one region and all Ghana branches in another. This helps with filtering when you have branches across multiple countries.
