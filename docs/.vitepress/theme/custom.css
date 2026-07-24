@@ -238,3 +238,74 @@ html.dark .screenshot-dark { display: block !important; }
   .vp-doc h1 { font-size: 1.3rem; }
   .VPHero .name { font-size: 1.7rem !important; }
 }
+
+/* ─── Sidebar icons ──────────────────────────────────────────────────────── */
+
+.sidebar-icon {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  margin-right: 7px;
+  opacity: 0.5;
+  transition: opacity 0.15s, color 0.15s, transform 0.15s;
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+  top: -1px;
+}
+
+/* Active link icon */
+.VPSidebarItem.is-active .sidebar-icon {
+  opacity: 1;
+  color: var(--vp-c-brand-1);
+}
+
+/* Hover effect */
+.VPSidebarItem .VPLink:hover .sidebar-icon {
+  opacity: 1;
+  color: var(--vp-c-brand-1);
+  transform: scale(1.15);
+}
+
+/* Touch feedback on mobile */
+.VPSidebarItem .VPLink:active .sidebar-icon {
+  transform: scale(0.92);
+  opacity: 1;
+}
+
+/* Make the link item flex so icon and text align */
+.VPSidebarItem.level-1 .item {
+  display: flex;
+  align-items: center;
+}
+
+.VPSidebarItem.level-1 .VPLink {
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  padding: 3px 6px;
+  margin: 1px 0;
+  transition: background 0.12s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.VPSidebarItem.level-1 .VPLink:hover {
+  background: var(--vp-c-brand-soft);
+}
+
+.VPSidebarItem.level-1 .VPLink:active {
+  background: var(--vp-c-brand-soft);
+}
+
+/* Touch device — larger tap target */
+@media (max-width: 768px) {
+  .VPSidebarItem.level-1 .VPLink {
+    padding: 6px 8px;
+    margin: 2px 0;
+  }
+
+  .sidebar-icon {
+    width: 16px;
+    height: 16px;
+  }
+}
