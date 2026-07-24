@@ -2,6 +2,18 @@
 
 Regions are geographic groupings that organise your branches. Every branch must belong to a region.
 
+<div class="screenshot-window screenshot-light">
+
+![Regions page showing Greater Accra, United Kingdom, and Western Area](/screenshots/regions.png)
+
+</div>
+
+<div class="screenshot-window screenshot-dark">
+
+![Regions page in dark mode showing Greater Accra, United Kingdom, and Western Area](/screenshots/regions-black.png)
+
+</div>
+
 ::: tip Add the Regions screenshot
 Take a screenshot of the Regions page and save it as `regions.png` in the screenshots folder to display it here.
 :::
